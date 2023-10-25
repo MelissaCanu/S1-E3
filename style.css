@@ -1,0 +1,24 @@
+/* STILI GENERALI */
+
+#container-bg {
+  font-family: Georgia, serif;
+}
+
+/* HEADER */
+#logo img {
+}
+
+#bg-yellow {
+  background-color: #fdfbf1;
+}
+
+#bg-yellow p {
+  background-color: ;
+}
+
+/* ARTICLE */
+.line-blue {
+  height: 1px;
+  background-color: blue;
+  border: none;
+}
