@@ -4,13 +4,19 @@ body {
   font-family: Georgia, serif;
 }
 
+hr {
+  height: 1px;
+  border: none;
+  background-color: rgb(0, 170, 255);
+}
+
 h4 {
   font-weight: 800;
   text-transform: capitalize;
 }
 
 h3 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 h1 {
@@ -60,6 +66,11 @@ figure {
 figure img {
   width: 100%;
   border-radius: 20px;
+}
+
+figure p {
+  text-align: left;
+  font-size: larger;
 }
 
 figcaption {
