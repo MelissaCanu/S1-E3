@@ -54,6 +54,7 @@ article {
 
 figure {
   text-align: center;
+  margin: 0 auto;
 }
 
 figure img {
@@ -69,11 +70,11 @@ figcaption {
   padding-left: 15px;
   text-align: left;
   color: rgb(178, 55, 55);
-  text-transform: uppercase;
   border-left: 2px solid #ffdb83;
 }
 
 #featured-a span {
+  text-transform: uppercase;
 }
 
 /* TESTO ARTICOLO */
