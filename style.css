@@ -1,24 +1,89 @@
 /* STILI GENERALI */
 
-#container-bg {
+body {
   font-family: Georgia, serif;
 }
 
+h4 {
+  font-weight: 400;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
 /* HEADER */
+
+header {
+  padding: 15px;
+  text-align: center;
+}
 #logo img {
+  width: 20%;
+  padding-bottom: 20px;
 }
 
 #bg-yellow {
   background-color: #fdfbf1;
+  border-top: 2px solid #ffdb83;
 }
 
 #bg-yellow p {
-  background-color: ;
+  color: #107777;
+  padding-bottom: 18px;
+}
+
+#bg-yellow p span {
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 /* ARTICLE */
+
+article {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+figcaption {
+  color: gray;
+}
+
+#featured-a {
+  padding-left: 15px;
+  text-align: left;
+  color: rgb(178, 55, 55);
+  text-transform: uppercase;
+  border-left: 2px solid #ffdb83;
+}
+
+#featured-a span {
+}
+
 .line-blue {
   height: 1px;
   background-color: blue;
   border: none;
+}
+
+/* TESTO ARTICOLO */
+
+.article-txt {
+  text-align: left;
+}
+
+.article-txt h2 {
+  text-align: left;
+  text-transform: uppercase;
 }
